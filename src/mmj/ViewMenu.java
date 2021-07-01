@@ -41,7 +41,7 @@ public class ViewMenu extends JFrame {
 		JMenuBar menuBar = new JMenuBar();
 		setJMenuBar(menuBar);
 		
-		JMenu mnNewMenu = new JMenu("File");
+		JMenu mnNewMenu = new JMenu("ARQUIVO");
 		menuBar.add(mnNewMenu);
 		
 		JMenu mnNewMenu_1 = new JMenu("Edit");
