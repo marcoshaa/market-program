@@ -75,7 +75,7 @@ public class ViewLogin extends JFrame {
 		contentPane.add(scrollPane);
 		
 		JButton button_ent = new JButton("ENTRAR");
-		button_ent.setBounds(158, 166, 113, 23);
+		button_ent.setBounds(158, 171, 113, 23);
 		button_ent.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				ViewMenu telaDeMenu = new ViewMenu();
