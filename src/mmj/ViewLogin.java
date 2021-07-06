@@ -78,8 +78,8 @@ public class ViewLogin extends JFrame {
 		button_ent.setBounds(158, 171, 113, 23);
 		button_ent.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				ViewMenu telaDeMenu = new ViewMenu();
-				telaDeMenu.setVisible(true);
+				bEntrar acaoEntrar = new bEntrar();
+				acaoEntrar.actionPerformed(e);
 			}
 		});
 		contentPane.add(button_ent);
