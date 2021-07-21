@@ -53,30 +53,30 @@ public class ViewCad extends JFrame {
 		contentPane.setLayout(null);
 		
 		textField = new JTextField();
-		textField.setBounds(154, 63, 46, 20);
+		textField.setBounds(75, 67, 46, 20);
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
 		textField_1 = new JTextField();
-		textField_1.setBounds(154, 119, 125, 20);
+		textField_1.setBounds(75, 124, 125, 20);
 		contentPane.add(textField_1);
 		textField_1.setColumns(10);
 		
 		textField_2 = new JTextField();
-		textField_2.setBounds(154, 166, 125, 20);
+		textField_2.setBounds(75, 176, 125, 20);
 		contentPane.add(textField_2);
 		textField_2.setColumns(10);
 		
 		JLabel lblNewLabel = new JLabel("ID");
-		lblNewLabel.setBounds(154, 41, 46, 14);
+		lblNewLabel.setBounds(75, 42, 46, 14);
 		contentPane.add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("USUARIO:");
-		lblNewLabel_1.setBounds(154, 94, 61, 14);
+		lblNewLabel_1.setBounds(75, 98, 61, 14);
 		contentPane.add(lblNewLabel_1);
 		
 		JLabel lblNewLabel_2 = new JLabel("SENHA:");
-		lblNewLabel_2.setBounds(154, 150, 46, 14);
+		lblNewLabel_2.setBounds(75, 155, 46, 14);
 		contentPane.add(lblNewLabel_2);
 		
 		JButton btnNewButton = new JButton("SALVAR");
@@ -84,7 +84,17 @@ public class ViewCad extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 			}
 		});
-		btnNewButton.setBounds(154, 205, 125, 23);
+		btnNewButton.setBounds(75, 207, 125, 23);
 		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("Return for Login");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				ViewLogin telaLogin = new ViewLogin();
+				telaLogin.setVisible(true);
+			}
+		});
+		btnNewButton_1.setBounds(270, 207, 125, 23);
+		contentPane.add(btnNewButton_1);
 	}
 }

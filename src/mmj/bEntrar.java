@@ -16,7 +16,7 @@ public class bEntrar {
 	telaDeMenu.setVisible(true);
 	
 		}else{ 
-			JOptionPane.showMessageDialog(null, e, "SENHA OU USUARIO INCORRETO",0);
+		JOptionPane.showMessageDialog(null, e, "SENHA OU USUARIO INCORRETO",0);
 		}
 	}
 }
